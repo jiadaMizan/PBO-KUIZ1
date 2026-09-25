@@ -42,9 +42,7 @@ public class Customer {
      * @param name new name
      */
     public void setName(String name) {
-        if (name != null){
-            this.name = name;
-        }
+        this.name = name;
     }
 }
 
