@@ -39,7 +39,7 @@ public class Order {
     public double getFinalTotal () {
         double total = getTotal();
 
-        if (total > 100000) {
+        if (total > 100000.0) {
             return total * 0.90;
         } else {
             return total;
