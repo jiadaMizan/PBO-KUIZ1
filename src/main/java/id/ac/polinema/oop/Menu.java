@@ -57,7 +57,7 @@ public class Menu {
     }
 
     public int getItemCount() {
-        return this.itemCount;
+        return itemCount;
     }
 }
 
