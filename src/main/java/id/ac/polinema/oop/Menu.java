@@ -38,9 +38,7 @@ public class Menu {
         if (item != null && itemCount < items.length) {
             items[itemCount] = item;
             itemCount++;
-        } else {
-            return;
-        }
+        } 
     }
 
     /**

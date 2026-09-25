@@ -41,8 +41,9 @@ public class Order {
 
         if (total > 100000) {
             return total * 0.10;
+        } else {
+            return total;
         }
-        return total;
     }
 
 }
