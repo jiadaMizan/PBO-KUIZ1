@@ -35,7 +35,7 @@ public class Menu {
      * @param item the menu item to add
      */
     public void addMenuItem(MenuItem item) {
-        if (item != null && itemCount < items.length) {
+        if (itemCount < items.length) {
             items[itemCount] = item;
             itemCount++;
         } 
