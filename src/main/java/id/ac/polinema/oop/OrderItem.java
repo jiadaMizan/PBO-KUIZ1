@@ -18,10 +18,7 @@ public class OrderItem {
     }
 
     public double getSubTotal (){
-        if (menuItem != null){
             return menuItem.getPrice() * quantity;
-        }
-        return 0.0; 
     }
 }
 //sudah
