@@ -20,8 +20,8 @@ public class Menu {
      * and the counter with 0.
      */
 
-    MenuItem[] items;
-    int itemCount;
+    private MenuItem[] items;
+    private int itemCount;
 
     public Menu() {
         this.items = new MenuItem[10];
