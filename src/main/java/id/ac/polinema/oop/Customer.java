@@ -42,7 +42,7 @@ public class Customer {
      * @param name new name
      */
     public void setName(String newName) {
-        if (newName != null && !newName.isEmpty()) {
+        if (newName != null && !newName.trim().isEmpty()) {
             this.name = newName;
         } 
     }
