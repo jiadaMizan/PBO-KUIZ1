@@ -28,11 +28,11 @@ public class Customer {
     }
 
     public String getCustomerId() {
-        return this.customerId;
+        return customerId;
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     /**
@@ -44,8 +44,6 @@ public class Customer {
     public void setName(String name) {
         if (name != null){
             this.name = name;
-        } else {
-            return;
         }
     }
 }
