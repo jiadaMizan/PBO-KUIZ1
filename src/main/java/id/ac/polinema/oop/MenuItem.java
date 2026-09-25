@@ -29,22 +29,16 @@ public class MenuItem {
     }
 
     public String getName() {
-        return this.getName();
+        return name;
     }
 
     public double getPrice() {
-        return this.price;
+        return price;
     }
 
-    /**
-     * Updates the price. A negative price is invalid:
-     * ignore it and leave the field unchanged.
-     *
-     * @param price new price in Rupiah
-     */
     public void setPrice(double price) {
         if (price < 0) {
-            this.price = 0;
+            this.price = 0.0;
         } else {
             this.price = price;
         }
