@@ -8,7 +8,7 @@ public class Cashier {
         }
         double finalTotal = order.getFinalTotal();
         if (cash < finalTotal) {
-            return -1.0; // Uang kurang, kembalikan -1.0 sesuai standar test case
+            return -1.0; 
         }
         return cash - finalTotal;
     }

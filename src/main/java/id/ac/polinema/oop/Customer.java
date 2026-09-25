@@ -45,7 +45,7 @@ public class Customer {
         if (name != null){
             this.name = name;
         } else {
-            this.name = "";
+            return;
         }
     }
 }
