@@ -16,7 +16,7 @@ public class Order {
     }
 
     public void addItem (MenuItem item, int quantity) {
-        if (item != null && quantity > 0 && itemCount < items.length){
+        if (item != null && quantity > 0 && itemCount < 10){
             items[itemCount] = new OrderItem(item, quantity);
             itemCount++;
         }
