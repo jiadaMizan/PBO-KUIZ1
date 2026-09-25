@@ -40,7 +40,7 @@ public class Order {
         double total = getTotal();
 
         if (total > 100000) {
-            return total * 0.10;
+            return total * (10 / 100);
         } else {
             return total;
         }
